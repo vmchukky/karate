@@ -73,6 +73,7 @@ public class VarsPanel extends BorderPane {
             });
             return row ;
         });
+        DragResizer.makeResizable(table, false, false, true, true);
     }
     
     public void refresh() {

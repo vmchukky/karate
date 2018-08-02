@@ -110,6 +110,7 @@ public class HeaderPanel extends BorderPane {
             });
             content.getChildren().addAll(envLabel, envTextField, envButton, runAllButton, showContentButton);            
         }
+        DragResizer.makeResizable(textContent, false, false, true, false);
     }
     
     private String getContentButtonText(boolean visible) {
